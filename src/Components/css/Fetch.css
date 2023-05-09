@@ -5,7 +5,7 @@ label{
     margin-top: 5px ;
     border-radius: 4px;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input{
@@ -24,7 +24,7 @@ select{
     height: 30px;
     width: 70%;
     border-radius: 4px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .form{
@@ -82,5 +82,5 @@ h3 {
 .response h6{
     font-size: 20px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }

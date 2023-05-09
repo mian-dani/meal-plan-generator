@@ -99,8 +99,8 @@ const Fetch = () => {
               
               onChange={(e) => setGender(e.target.value)}
             >
-              <option value=""></option>
-              <option value="male" selected>Male</option>
+              <option value="male" selected>Gender</option>
+              <option value="male" >Male</option>
               <option value="female">Fe-Male</option>
             </select>
 
@@ -127,15 +127,15 @@ const Fetch = () => {
             <select
               name=""
               id=""
-              placeholder="(1 to 7) feet"
+              
               onChange={(e) => setFeetheight(e.target.value)}
             >
-              <option value=""></option>
+              <option value="5" selected>In Feet</option>
               <option value="1">1-feet</option>
               <option value="2">2-feet</option>
               <option value="3">3-feet</option>
               <option value="4">4-feet</option>
-              <option value="5" selected>5-feet</option>
+              <option value="5">5-feet</option>
               <option value="6">6-feet</option>
               <option value="7">7-feet</option>
             </select>
@@ -145,14 +145,14 @@ const Fetch = () => {
               placeholder="(1 to 11)"
               onChange={(e) => setInchheight(e.target.value)}
             >
-              <option value=""></option>
+              <option value="7" selected>In Inches</option>
               <option value="1">1-inch</option>
               <option value="2">2-inch</option>
               <option value="3">3-inch</option>
               <option value="4">4-inch</option>
               <option value="5">5-inch</option>
               <option value="6">6-inch</option>
-              <option value="7" selected>7-inch</option>
+              <option value="7">7-inch</option>
               <option value="8">8-inch</option>
               <option value="9">9-inch</option>
               <option value="10">10-inch</option>
