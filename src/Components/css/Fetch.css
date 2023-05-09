@@ -13,11 +13,14 @@ input{
     height: 30px;
     width: 70%;
     border-radius: 4px;
-    
+    background-color: black;
+    color: aliceblue;
 }
 
 select{
     display: block;
+    background-color: black;
+    color: aliceblue;
     height: 30px;
     width: 70%;
     border-radius: 4px;
