@@ -74,7 +74,7 @@ const Fetch = () => {
     <>
       <section className="section">
         <div className="formdiv">
-          <h3>Welcome to personalized AI Based Meal Planner.</h3>
+          <h3>Welcome to Everyday Personalized AI Based Meal Planner.</h3>
           <form action="" className="form">
             <label htmlFor="">Name</label>
             <input
