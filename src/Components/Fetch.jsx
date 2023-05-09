@@ -19,8 +19,7 @@ const Fetch = () => {
  
 
   const fullfill = async () => {
-    console.log("I am called fulfill");
-    setRes1("Generating Response.....");
+    setRes1("Generating Response...");
 
     const options = {
       method: "POST",
@@ -66,7 +65,7 @@ const Fetch = () => {
 
     } catch (error) {
       // console.error(error);
-      setRes1("Server is busy. Try Again few seconds later");
+      setRes1("Too many people using application. Server is busy. Try Again few seconds later");
       
     }
   };
