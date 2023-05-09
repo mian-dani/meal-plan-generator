@@ -5,6 +5,7 @@ label{
     margin-top: 5px ;
     border-radius: 4px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 input{
@@ -12,6 +13,7 @@ input{
     height: 30px;
     width: 70%;
     border-radius: 4px;
+    
 }
 
 select{
@@ -19,6 +21,7 @@ select{
     height: 30px;
     width: 70%;
     border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .form{
@@ -59,20 +62,22 @@ h3 {
     text-align: center;
     color: white;
     padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .btn{
    margin-top: 5%;
    border-radius: 4px;
-
+   font-family: 'Times New Roman', Times, serif;
 }
 
 .response{
     color:white;
     padding: 5px;
-
+    
 }
 .response h6{
     font-size: 20px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
