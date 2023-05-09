@@ -130,7 +130,8 @@ const Fetch = () => {
               
               onChange={(e) => setFeetheight(e.target.value)}
             >
-              <option value="5" selected>In Feet</option>
+              {/* <option value="5" selected>In Feet</option> */}
+              <option value="">In Feet</option>
               <option value="1">1-feet</option>
               <option value="2">2-feet</option>
               <option value="3">3-feet</option>
